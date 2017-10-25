@@ -152,4 +152,334 @@ To https://github.com/HannahMoses/goodmed.git
 cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
 $
 ======++===============4:17 PM 10/25/2017
+4:21 PM 10/25/2017
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   templates/goodmedtextfiles/gitbash1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ pip install --upgrade google-api-python-client
+Requirement already up-to-date: google-api-python-client in c:\miniconda3\lib\site-packages
+Requirement already up-to-date: uritemplate<4dev,>=3.0.0 in c:\miniconda3\lib\site-packages (from google-api-python-client)
+Requirement already up-to-date: six<2dev,>=1.6.1 in c:\miniconda3\lib\site-packages (from google-api-python-client)
+Requirement already up-to-date: httplib2<1dev,>=0.9.2 in c:\miniconda3\lib\site-packages (from google-api-python-client)
+Requirement already up-to-date: oauth2client<5.0.0dev,>=1.5.0 in c:\miniconda3\lib\site-packages (from google-api-python-client)
+Requirement already up-to-date: rsa>=3.1.4 in c:\miniconda3\lib\site-packages (from oauth2client<5.0.0dev,>=1.5.0->google-api-python-client)
+Requirement already up-to-date: pyasn1>=0.1.7 in c:\miniconda3\lib\site-packages (from oauth2client<5.0.0dev,>=1.5.0->google-api-python-client)
+Requirement already up-to-date: pyasn1-modules>=0.0.5 in c:\miniconda3\lib\site-packages (from oauth2client<5.0.0dev,>=1.5.0->google-api-python-client)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   templates/goodmedtextfiles/gitbash1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        quickstart.py
+        templates/goodmedgmailAPI/goodmedGmailPics/9b.JPG
+        templates/goodmedgmailAPI/goodmedGmailPics/9c.JPG
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git commit -m "quickstartDOTpy"
+[master 3c5e4fc] quickstartDOTpy
+ 4 files changed, 130 insertions(+)
+ create mode 100644 quickstart.py
+ create mode 100644 templates/goodmedgmailAPI/goodmedGmailPics/9b.JPG
+ create mode 100644 templates/goodmedgmailAPI/goodmedGmailPics/9c.JPG
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git push origin master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 304.88 KiB | 0 bytes/s, done.
+Total 10 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/HannahMoses/goodmed.git
+   0cbf82e..3c5e4fc  master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+=========++++++=======4:21 PM 10/25/2017
+4:25 PM 10/25/2017
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $ git status
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ On branch master
+bash: On: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Changes not staged for commit:
+bash: Changes: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$   (use "git add <file>..." to update what will be committed)
+bash: use: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$   (use "git checkout -- <file>..." to discard changes in working directory)
+bash: use: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$         modified:   templates/goodmedtextfiles/gitbash1.txt
+bash: modified:: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ no changes added to commit (use "git add" and/or "git commit -a")
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $ pip install --upgrade google-api-python-client
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: google-api-python-client in c:\miniconda3\lib\                                                                                                                site-packages
+bash: Requirement: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: uritemplate<4dev,>=3.0.0 in c:\miniconda3\lib\                                                                                                                site-packages (from google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: six<2dev,>=1.6.1 in c:\miniconda3\lib\site-pac                                                                                                                kages (from google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: httplib2<1dev,>=0.9.2 in c:\miniconda3\lib\sit                                                                                                                e-packages (from google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: oauth2client<5.0.0dev,>=1.5.0 in c:\miniconda3                                                                                                                \lib\site-packages (from google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: rsa>=3.1.4 in c:\miniconda3\lib\site-packages                                                                                                                 (from oauth2client<5.0.0dev,>=1.5.0->google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: pyasn1>=0.1.7 in c:\miniconda3\lib\site-packag                                                                                                                es (from oauth2client<5.0.0dev,>=1.5.0->google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Requirement already up-to-date: pyasn1-modules>=0.0.5 in c:\miniconda3\lib\sit                                                                                                                e-packages (from oauth2client<5.0.0dev,>=1.5.0->google-api-python-client)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $ git status
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ On branch master
+bash: On: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Changes not staged for commit:
+bash: Changes: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$   (use "git add <file>..." to update what will be committed)
+bash: use: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$   (use "git checkout -- <file>..." to discard changes in working directory)
+bash: use: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$         modified:   templates/goodmedtextfiles/gitbash1.txt
+bash: modified:: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Untracked files:
+bash: Untracked: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$   (use "git add <file>..." to include in what will be committed)
+bash: use: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$         quickstart.py
+bash: quickstart.py: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$         templates/goodmedgmailAPI/goodmedGmailPics/9b.JPG
+bash: templates/goodmedgmailAPI/goodmedGmailPics/9b.JPG: cannot execute binary f                                                                                                                ile: Exec format error
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$         templates/goodmedgmailAPI/goodmedGmailPics/9c.JPG
+bash: templates/goodmedgmailAPI/goodmedGmailPics/9c.JPG: cannot execute binary f                                                                                                                ile: Exec format error
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ no changes added to commit (use "git add" and/or "git commit -a")
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $ git add .
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $ git commit -m "quickstartDOTpy"
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ [master 3c5e4fc] quickstartDOTpy
+bash: [master: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$  4 files changed, 130 insertions(+)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$  create mode 100644 quickstart.py
+bash: create: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$  create mode 100644 templates/goodmedgmailAPI/goodmedGmailPics/9b.JPG
+bash: create: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$  create mode 100644 templates/goodmedgmailAPI/goodmedGmailPics/9c.JPG
+bash: create: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $ git push origin master
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Counting objects: 10, done.
+bash: Counting: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Delta compression using up to 4 threads.
+bash: Delta: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Compressing objects: 100% (8/8), done.
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Writing objects: 100% (10/10), 304.88 KiB | 0 bytes/s, done.
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ Total 10 (delta 4), reused 0 (delta 0)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ To https://github.com/HannahMoses/goodmed.git
+bash: To: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$    0cbf82e..3c5e4fc  master -> master
+bash: 0cbf82e..3c5e4fc: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+bash: syntax error near unexpected token `('
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ $
+bash: $: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+=========++++=============4:25 PM 10/25/2017
+4:26 PM 10/25/2017
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ python quickstart.py
+  File "quickstart.py", line 11
+        import argparse
+    ^
+SyntaxError: invalid character in identifier
+
+cody
+=======++++++===========4:26 PM 10/25/2017
+
+
+
+
 
