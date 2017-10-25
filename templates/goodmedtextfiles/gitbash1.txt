@@ -1,0 +1,98 @@
+
+
+
+==========++++++++++===========
+3:58 PM 10/25/2017
+
+git command order for goodmed 3:58 PM 10/25/2017
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ cd gitcode
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode
+$ dir
+1BrowserJavaScriptLC101Unit3DOT2.txt  dontUse        JS2017     MyJS     proj1
+1JavaScriptLC101Unit3DOT2.txt         frontend       JSstudios  myshop1  proj2
+1USEthis2017Oct25                     gmail_project  LC101      myshop2
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode
+$ cd 1USEthis2017Oct25
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25
+$ dir
+goodmed
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25
+$ cd goodmed
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed
+$ ls
+gmaddList.html  gmfront.html  readme.txt  templates/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed
+$ git init
+Initialized empty Git repository in C:/Users/cody/Downloads/Git/gitcode/1USEthis2017Oct25/goodmed/.git/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        gmaddList.html
+        gmfront.html
+        readme.txt
+        templates/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git commit -m "2017Oct25WedGOODMED"
+[master (root-commit) 64a4389] 2017Oct25WedGOODMED
+ 7 files changed, 193 insertions(+)
+ create mode 100644 gmaddList.html
+ create mode 100644 gmfront.html
+ create mode 100644 readme.txt
+ create mode 100644 templates/goodmedimages/goodmedFront.jpg
+ create mode 100644 templates/goodmednomoreitems.html
+ create mode 100644 templates/goodmedstyling/goodmedstyle1.css
+ create mode 100644 templates/goodmedstyling/goodmedstyle2.css
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git remote add origin https://github.com/HannahMoses/goodmed.git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git push origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 83.35 KiB | 0 bytes/s, done.
+Total 12 (delta 0), reused 0 (delta 0)
+To https://github.com/HannahMoses/goodmed.git
+ * [new branch]      master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/1USEthis2017Oct25/goodmed (master)
+$
+======++++=============3:58 PM 10/25/2017
+
+
